@@ -1,39 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-23T23:21:28 IST" name="PlaywrightSuite" finished-at="2025-12-23T23:21:53 IST" duration-ms="24824">
+  <suite started-at="2025-12-24T11:32:53 IST" name="Default suite" finished-at="2025-12-24T11:33:34 IST" duration-ms="40912">
     <groups>
     </groups>
-    <test started-at="2025-12-23T23:21:28 IST" name="Basic Tests" finished-at="2025-12-23T23:21:53 IST" duration-ms="24824">
+    <test started-at="2025-12-24T11:32:53 IST" name="Default test" finished-at="2025-12-24T11:33:34 IST" duration-ms="40912">
       <class name="test.LoginTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:test.LoginTest@a1153bc]" started-at="2025-12-23T23:21:41 IST" name="setUp" finished-at="2025-12-23T23:21:42 IST" duration-ms="732" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.LoginTest@77847718]" started-at="2025-12-24T11:32:53 IST" name="setUp" finished-at="2025-12-24T11:33:10 IST" duration-ms="17097" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="test()[pri:0, instance:test.LoginTest@a1153bc]" started-at="2025-12-23T23:21:42 IST" name="test" finished-at="2025-12-23T23:21:53 IST" duration-ms="11048" status="PASS">
+        <test-method signature="test()[pri:0, instance:test.LoginTest@77847718]" started-at="2025-12-24T11:33:10 IST" name="test" finished-at="2025-12-24T11:33:34 IST" duration-ms="23383" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="tearDowon()[pri:0, instance:test.LoginTest@a1153bc]" started-at="2025-12-23T23:21:53 IST" name="tearDowon" finished-at="2025-12-23T23:21:53 IST" duration-ms="259" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.LoginTest@77847718]" started-at="2025-12-24T11:33:34 IST" name="tearDown" finished-at="2025-12-24T11:33:34 IST" duration-ms="384" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDowon -->
+        </test-method> <!-- tearDown -->
       </class> <!-- test.LoginTest -->
-      <class name="test.FirstTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:test.FirstTest@131774fe]" started-at="2025-12-23T23:21:28 IST" name="setUp" finished-at="2025-12-23T23:21:39 IST" duration-ms="11139" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyTest()[pri:0, instance:test.FirstTest@131774fe]" started-at="2025-12-23T23:21:39 IST" name="verifyTest" finished-at="2025-12-23T23:21:41 IST" duration-ms="1338" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTest -->
-        <test-method is-config="true" signature="tearDowon()[pri:0, instance:test.FirstTest@131774fe]" started-at="2025-12-23T23:21:41 IST" name="tearDowon" finished-at="2025-12-23T23:21:41 IST" duration-ms="260" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDowon -->
-      </class> <!-- test.FirstTest -->
-    </test> <!-- Basic Tests -->
-  </suite> <!-- PlaywrightSuite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

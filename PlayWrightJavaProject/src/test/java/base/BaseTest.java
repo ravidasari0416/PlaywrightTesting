@@ -17,15 +17,19 @@ public class BaseTest {
 	@BeforeMethod
 	public void setUp() {
 		playwright = Playwright.create();
-		browser = playwright.chromium().launch(new BrowserType.LaunchOptions().setHeadless(false));
+		browser = playwright.chromium().launch(new BrowserType.LaunchOptions()
+				.setHeadless(false)
+				.setArgs(java.util.Arrays.asList("--start-maximized")));
 		page = browser.newPage();
+		// Ensure the viewport matches a typical maximized window
+		page.setViewportSize(1920, 1080);
 				
 	}
 	
 	@AfterMethod
-	public void tearDowon() {
-		if(browser !=null) browser.close();
-		if(playwright !=null) browser.close();
+	public void tearDown() {
+		if (browser != null) browser.close();
+		if (playwright != null) playwright.close();
 		
 	}
 
