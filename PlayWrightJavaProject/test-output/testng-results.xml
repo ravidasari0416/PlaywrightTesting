@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-23T23:21:28 IST" name="PlaywrightSuite" finished-at="2025-12-23T23:21:53 IST" duration-ms="24824">
+    <groups>
+    </groups>
+    <test started-at="2025-12-23T23:21:28 IST" name="Basic Tests" finished-at="2025-12-23T23:21:53 IST" duration-ms="24824">
+      <class name="test.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.LoginTest@a1153bc]" started-at="2025-12-23T23:21:41 IST" name="setUp" finished-at="2025-12-23T23:21:42 IST" duration-ms="732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test()[pri:0, instance:test.LoginTest@a1153bc]" started-at="2025-12-23T23:21:42 IST" name="test" finished-at="2025-12-23T23:21:53 IST" duration-ms="11048" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="tearDowon()[pri:0, instance:test.LoginTest@a1153bc]" started-at="2025-12-23T23:21:53 IST" name="tearDowon" finished-at="2025-12-23T23:21:53 IST" duration-ms="259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowon -->
+      </class> <!-- test.LoginTest -->
+      <class name="test.FirstTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.FirstTest@131774fe]" started-at="2025-12-23T23:21:28 IST" name="setUp" finished-at="2025-12-23T23:21:39 IST" duration-ms="11139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyTest()[pri:0, instance:test.FirstTest@131774fe]" started-at="2025-12-23T23:21:39 IST" name="verifyTest" finished-at="2025-12-23T23:21:41 IST" duration-ms="1338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTest -->
+        <test-method is-config="true" signature="tearDowon()[pri:0, instance:test.FirstTest@131774fe]" started-at="2025-12-23T23:21:41 IST" name="tearDowon" finished-at="2025-12-23T23:21:41 IST" duration-ms="260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowon -->
+      </class> <!-- test.FirstTest -->
+    </test> <!-- Basic Tests -->
+  </suite> <!-- PlaywrightSuite -->
+</testng-results>
