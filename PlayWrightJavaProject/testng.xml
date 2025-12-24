@@ -5,6 +5,7 @@
 		<classes>
 			<class name="test.FirstTest" />
 			<class name="test.LoginTest" />
+			<class name="test.LandingPageTest" />
 
 		</classes>
 	</test>

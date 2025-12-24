@@ -24,6 +24,24 @@
 			<scope>test</scope>
 		</dependency>
 
+
+		<!-- https://mvnrepository.com/artifact/ch.qos.logback/logback-classic -->
+		<dependency>
+			<groupId>ch.qos.logback</groupId>
+			<artifactId>logback-classic</artifactId>
+			<version>1.5.23</version>
+			<scope>compile</scope>
+		</dependency>
+
+
+		<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+		<dependency>
+			<groupId>com.aventstack</groupId>
+			<artifactId>extentreports</artifactId>
+			<version>5.1.2</version>
+		</dependency>
+
+
 	</dependencies>
 
 
