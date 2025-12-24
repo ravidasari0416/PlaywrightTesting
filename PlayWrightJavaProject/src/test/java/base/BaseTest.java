@@ -24,11 +24,14 @@ public class BaseTest {
 		page.setViewportSize(1920, 1080);
 
 	}
-	/*
-	 * @AfterMethod public void tearDown() { if (browser != null) browser.close();
-	 * if (playwright != null) playwright.close();
-	 * 
-	 * }
-	 */
+
+	@AfterMethod
+	public void tearDown() {
+		if (browser != null)
+			browser.close();
+		if (playwright != null)
+			playwright.close();
+
+	}
 
 }
