@@ -25,7 +25,7 @@ public class LandingPageTest extends BaseTest {
 			log.info("Login successful, verifying side menu items");
 			
 			// Verify side menu items
-			List<String> expectedItems = List.of("Admi", "PIM", "Leave", "Time", "Recruitment", "My Info", "Performance", "Dashboard", "Directory", "Maintenance", "Claim", "Buzz");
+			List<String> expectedItems = List.of("Admin", "PIM", "Leave", "Time", "Recruitment", "My Info", "Performance", "Dashboard", "Directory", "Maintenance", "Claim", "Buzz");
 			
 			// Create LandingPage object and verify menu items
 			LandingPage landingPage = new LandingPage(page);
