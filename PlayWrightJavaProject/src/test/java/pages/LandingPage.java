@@ -16,21 +16,6 @@ public class LandingPage extends BaseTest {
 		this.page = page;
 	}
 
-//	public void verifySideMenuItems() {
-//		List<String> menuItems = page.locator(objRepo.menuItems).allTextContents();
-//
-//		List<String> expectedItems = List.of("Admin", "PIM", "Leave", "Time", "Recruitment", "My Info", "Performance",
-//				"Dashboard", "Directory", "Maintenance", "Claim", "Buzz");
-//
-//		for (String expected : expectedItems) {
-//			if (menuItems.contains(expected)) {
-//				test.pass(expected + " is present in the side menu.");
-//			} else {
-//				test.fail(expected + " is NOT present in the side menu.");
-//			}
-//		}
-//	}
-
 	
 	public void verifyMenuItems(String menuLocator, List<String> expectedItems,  ExtentTest test) {
 		List<String> actualItems = page.locator(menuLocator).allTextContents();
@@ -38,8 +23,10 @@ public class LandingPage extends BaseTest {
 		for(String expected : expectedItems) {
 			if(actualItems.contains(expected)) {
 				test.pass(expected + " is present in the menu.");
+				log.info(expected + " is present in the menu.");
 			} else {
 				test.fail(expected + " is NOT present in the menu.");
+				log.error(expected + " is NOT present in the menu.");
 			}
 		}
 	}

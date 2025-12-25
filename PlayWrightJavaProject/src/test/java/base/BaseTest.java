@@ -50,7 +50,7 @@ public class BaseTest {
 		log.info("Navigated to URL: " + objRepo.baseURL);
 	}
 
-	//@AfterMethod
+	@AfterMethod
 	public void tearDowon(ITestResult result) {
 		log.info("Closing the browser");
 		
@@ -65,10 +65,7 @@ public class BaseTest {
 		}
 		
 		extent.flush();
-		
-		/*
-		 * if (browser != null) browser.close();
-		 */
+
 		if (playwright != null)
 			browser.close();
 
