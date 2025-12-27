@@ -6,6 +6,7 @@
       <class name="test.LandingPageTest">
         <methods>
           <include name="setUp"/>
+          <include name="tearDowon"/>
           <include name="verifySideMenuItems"/>
         </methods>
       </class> <!-- test.LandingPageTest -->

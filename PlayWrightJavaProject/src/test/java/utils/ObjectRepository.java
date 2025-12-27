@@ -10,7 +10,7 @@ public class ObjectRepository {
 	public final String loginButton = "//button[text()=' Login ']";
 	
 	// Locators for Side Menu
-	public final String menuItems = "//*[@class='oxd-text oxd-text--span oxd-main-menu-item--name']";
+	public final String menuItemsObject = "//*[@class='oxd-text oxd-text--span oxd-main-menu-item--name']";
 
 
 }

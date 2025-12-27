@@ -30,6 +30,9 @@ public class BaseTest {
 	protected Logger log = LoggerUtil.getLogger(getClass());
 	protected ExtentReports extent;
 	public ExtentTest test;
+	
+	
+	ScreenshotUtil screenshotUtil = new ScreenshotUtil();
 
 	@BeforeMethod
 	public void setUp(Method method) {
@@ -56,8 +59,7 @@ public class BaseTest {
 		
 		if(result.getStatus() == ITestResult.FAILURE) {
 			test.fail("Test Failed: " + result.getThrowable());
-			String screenshotPath = ScreenshotUtil.takeScreenshotPath(page, result.getName());
-			test.addScreenCaptureFromPath(screenshotPath);
+			screenshotUtil.takeScreenshot(page, test);
 		} else if(result.getStatus() == ITestResult.SUCCESS) {
 			test.pass("Test Passed");
 		} else if(result.getStatus() == ITestResult.SKIP) {

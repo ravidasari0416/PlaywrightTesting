@@ -5,15 +5,14 @@ import java.util.List;
 import org.testng.annotations.Test;
 
 import base.BaseTest;
-import pages.LandingPage;
-import utils.ObjectRepository;
-import pages.LoginPage;
 import base.GlobalVariables;
+import pages.LandingPage;
+import pages.LoginPage;
+import utils.ObjectRepository;
 
 public class LandingPageTest extends BaseTest {
 	
 	ObjectRepository objRepo = new ObjectRepository();
-	//GlobalVariables global = new GlobalVariables();
 
 	
 	@Test
@@ -21,22 +20,29 @@ public class LandingPageTest extends BaseTest {
 		try {
 			// Navigate to demo site
 			LoginPage loginpage = new LoginPage(page);
-			loginpage.login(GlobalVariables.testuserName, GlobalVariables.testpassword);
-			log.info("Login successful, verifying side menu items");
+//			loginpage.login(GlobalVariables.testuserName, GlobalVariables.testpassword);
+//			log.info("Login successful, verifying side menu items");
+			
+			
+			log.info("logging as role: " + GlobalVariables.role);
+			loginpage.loginAsRole("preparer");
+			log.info("Login successful as preparer, verifying side menu items");
+			test.info("Login successful as preparer, verifying side menu items");
+
 			
 			// Verify side menu items
 			List<String> expectedItems = List.of("Admin", "PIM", "Leave", "Time", "Recruitment", "My Info", "Performance", "Dashboard", "Directory", "Maintenance", "Claim", "Buzz");
 			
 			// Create LandingPage object and verify menu items
 			LandingPage landingPage = new LandingPage(page);
-			landingPage.verifyMenuItems(objRepo.menuItems,expectedItems, test);
+			landingPage.verifyMenuItems(objRepo.menuItemsObject,expectedItems, test);
 			log.info("Side menu items verification completed");
 			
 		} catch (Exception e) {
-			
+
+			log.error("Error in verifying side menu items: " + e.getMessage());
+			test.fail("Test failed due to exception: " + e.getMessage());
 		}
-		
-		
 
 	}
 

@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-25T22:11:35 IST" name="Default suite" finished-at="2025-12-25T22:12:00 IST" duration-ms="24945">
+  <suite started-at="2025-12-26T15:42:30 IST" name="Default suite" finished-at="2025-12-26T15:42:56 IST" duration-ms="25705">
     <groups>
     </groups>
-    <test started-at="2025-12-25T22:11:35 IST" name="Default test" finished-at="2025-12-25T22:12:00 IST" duration-ms="24945">
+    <test started-at="2025-12-26T15:42:30 IST" name="Default test" finished-at="2025-12-26T15:42:56 IST" duration-ms="25705">
       <class name="test.LandingPageTest">
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:test.LandingPageTest@2a7ed1f]" started-at="2025-12-25T22:11:35 IST" name="setUp" finished-at="2025-12-25T22:11:56 IST" duration-ms="21359" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:test.LandingPageTest@42b3b079]" started-at="2025-12-26T15:42:30 IST" name="setUp" finished-at="2025-12-26T15:42:51 IST" duration-ms="21123" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,15 +18,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifySideMenuItems()[pri:0, instance:test.LandingPageTest@2a7ed1f]" started-at="2025-12-25T22:11:56 IST" name="verifySideMenuItems" finished-at="2025-12-25T22:11:58 IST" duration-ms="2488" status="PASS">
+        <test-method signature="verifySideMenuItems()[pri:0, instance:test.LandingPageTest@42b3b079]" started-at="2025-12-26T15:42:51 IST" name="verifySideMenuItems" finished-at="2025-12-26T15:42:55 IST" duration-ms="3385" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySideMenuItems -->
-        <test-method is-config="true" signature="tearDowon(org.testng.ITestResult)[pri:0, instance:test.LandingPageTest@2a7ed1f]" started-at="2025-12-25T22:11:58 IST" name="tearDowon" finished-at="2025-12-25T22:12:00 IST" duration-ms="1047" status="PASS">
+        <test-method is-config="true" signature="tearDowon(org.testng.ITestResult)[pri:0, instance:test.LandingPageTest@42b3b079]" started-at="2025-12-26T15:42:55 IST" name="tearDowon" finished-at="2025-12-26T15:42:56 IST" duration-ms="1153" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifySideMenuItems status=SUCCESS method=LandingPageTest.verifySideMenuItems()[pri:0, instance:test.LandingPageTest@2a7ed1f] output={null}]]]>
+                <![CDATA[[TestResult name=verifySideMenuItems status=SUCCESS method=LandingPageTest.verifySideMenuItems()[pri:0, instance:test.LandingPageTest@42b3b079] output={null}]]]>
               </value>
             </param>
           </params>

@@ -1,0 +1,226 @@
+2025-12-25 15:40:22 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-25 15:40:22 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 3 ms.
+2025-12-25 15:40:22 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-25 15:40:22 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-25 15:40:22 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-25 15:40:22 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-25 15:40:22 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-25 15:40:22 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-25 15:40:22 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-25 15:40:22 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-25 15:40:22 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-25 15:40:22 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-25 15:40:22 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-25 15:40:22 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-25 15:40:22 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-25 15:40:22 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-25 15:40:22 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 2 ms.
+2025-12-25 15:40:22 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 12 ms.
+2025-12-25 15:40:22 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-25 15:40:22 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-25 15:40:22 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-25 15:40:22 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-25 15:40:22 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-25 15:40:22 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-25 15:40:22 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-25 15:40:22 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-25 15:40:22 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-25 15:40:22 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-25 15:40:22 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-25 15:40:22 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-25 15:40:23 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\User\AppData\Local\Temp\testng-eclipse--1103551517\testng-customsuite.xml
+
+2025-12-25 15:40:23 INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 5 ms.
+2025-12-25 15:40:45 INFO  test.LandingPageTest - Browser launched successfully
+2025-12-25 15:40:49 INFO  test.LandingPageTest - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-25 15:40:52 INFO  test.LandingPageTest - Login successful, verifying side menu items
+2025-12-25 15:40:52 INFO  test.LandingPageTest - Side menu items verification completed
+2025-12-25 15:40:52 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@420745d7: 81 ms
+2025-12-25 15:40:52 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@2392212b: 1 ms
+2025-12-25 15:40:52 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@4c7a078: 10 ms
+2025-12-25 15:40:52 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@23c650a3: 9 ms
+2025-12-25 15:40:52 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@5c09d180: 7 ms
+2025-12-25 15:40:52 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@23aae55: 0 ms
+2025-12-25 21:29:52 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-25 21:29:52 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2025-12-25 21:29:52 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-25 21:29:52 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-25 21:29:52 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-25 21:29:52 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-25 21:29:52 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-25 21:29:52 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-25 21:29:52 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-25 21:29:52 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-25 21:29:52 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-25 21:29:52 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-25 21:29:52 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-25 21:29:52 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-25 21:29:52 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-25 21:29:52 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-25 21:29:52 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 4 ms.
+2025-12-25 21:29:52 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 6 ms.
+2025-12-25 21:29:52 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-25 21:29:52 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-25 21:29:52 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-25 21:29:52 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-25 21:29:52 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-25 21:29:52 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-25 21:29:52 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-25 21:29:52 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-25 21:29:52 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-25 21:29:52 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-25 21:29:52 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-25 21:29:52 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-25 21:29:52 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\User\AppData\Local\Temp\testng-eclipse--138278567\testng-customsuite.xml
+
+2025-12-25 21:29:52 INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 3 ms.
+2025-12-25 21:30:10 INFO  test.LandingPageTest - Browser launched successfully
+2025-12-25 21:30:28 INFO  test.LandingPageTest - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-25 21:30:36 INFO  test.LandingPageTest - Login successful, verifying side menu items
+2025-12-25 21:30:36 INFO  test.LandingPageTest - Side menu items verification completed
+2025-12-25 21:30:36 INFO  test.LandingPageTest - Closing the browser
+2025-12-25 21:30:38 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@1f193686: 120 ms
+2025-12-25 21:30:38 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@6dcd5639: 2 ms
+2025-12-25 21:30:38 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@73017a80: 20 ms
+2025-12-25 21:30:38 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@b18c4: 14 ms
+2025-12-25 21:30:38 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@27d57a2c: 8 ms
+2025-12-25 21:30:38 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@2ff95fc6: 0 ms
+2025-12-25 22:09:43 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-25 22:09:43 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-25 22:09:43 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-25 22:09:43 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-25 22:09:43 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-25 22:09:43 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-25 22:09:43 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-25 22:09:43 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-25 22:09:43 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2025-12-25 22:09:43 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-25 22:09:43 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-25 22:09:43 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-25 22:09:43 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-25 22:09:43 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-25 22:09:43 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-25 22:09:43 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-25 22:09:43 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 4 ms.
+2025-12-25 22:09:43 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 6 ms.
+2025-12-25 22:09:43 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-25 22:09:43 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2025-12-25 22:09:43 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-25 22:09:43 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-25 22:09:43 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-25 22:09:43 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-25 22:09:43 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-25 22:09:43 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-25 22:09:43 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-25 22:09:43 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-25 22:09:43 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-25 22:09:43 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-25 22:09:43 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\User\AppData\Local\Temp\testng-eclipse-989640978\testng-customsuite.xml
+
+2025-12-25 22:09:43 INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 4 ms.
+2025-12-25 22:10:00 INFO  test.LandingPageTest - Browser launched successfully
+2025-12-25 22:10:04 INFO  test.LandingPageTest - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-25 22:10:07 INFO  test.LandingPageTest - Login successful, verifying side menu items
+2025-12-25 22:10:07 INFO  pages.LandingPage - Admin is present in the menu.
+2025-12-25 22:10:07 INFO  pages.LandingPage - PIM is present in the menu.
+2025-12-25 22:10:07 INFO  pages.LandingPage - Leave is present in the menu.
+2025-12-25 22:10:07 INFO  pages.LandingPage - Time is present in the menu.
+2025-12-25 22:10:07 INFO  pages.LandingPage - Recruitment is present in the menu.
+2025-12-25 22:10:07 INFO  pages.LandingPage - My Info is present in the menu.
+2025-12-25 22:10:07 INFO  pages.LandingPage - Performance is present in the menu.
+2025-12-25 22:10:07 INFO  pages.LandingPage - Dashboard is present in the menu.
+2025-12-25 22:10:07 INFO  pages.LandingPage - Directory is present in the menu.
+2025-12-25 22:10:07 INFO  pages.LandingPage - Maintenance is present in the menu.
+2025-12-25 22:10:07 INFO  pages.LandingPage - Claim is present in the menu.
+2025-12-25 22:10:07 INFO  pages.LandingPage - Buzz is present in the menu.
+2025-12-25 22:10:07 INFO  test.LandingPageTest - Side menu items verification completed
+2025-12-25 22:10:07 INFO  test.LandingPageTest - Closing the browser
+2025-12-25 22:10:09 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@2ba33e2c: 120 ms
+2025-12-25 22:10:09 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@5fad41be: 2 ms
+2025-12-25 22:10:09 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@7ad54c55: 19 ms
+2025-12-25 22:10:09 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@4e904fd5: 14 ms
+2025-12-25 22:10:09 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@58a120b0: 10 ms
+2025-12-25 22:10:09 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@27d57a2c: 0 ms
+2025-12-25 22:11:35 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2025-12-25 22:11:35 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-25 22:11:35 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-25 22:11:35 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-25 22:11:35 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-25 22:11:35 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-25 22:11:35 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-25 22:11:35 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-25 22:11:35 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-25 22:11:35 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-25 22:11:35 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-25 22:11:35 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-25 22:11:35 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-25 22:11:35 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-25 22:11:35 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-25 22:11:35 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-25 22:11:35 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 7 ms.
+2025-12-25 22:11:35 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 12 ms.
+2025-12-25 22:11:35 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-25 22:11:35 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-25 22:11:35 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-25 22:11:35 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-25 22:11:35 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-25 22:11:35 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-25 22:11:35 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-25 22:11:35 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2025-12-25 22:11:35 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-25 22:11:35 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-25 22:11:35 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-25 22:11:35 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-25 22:11:35 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\User\AppData\Local\Temp\testng-eclipse--783511816\testng-customsuite.xml
+
+2025-12-25 22:11:35 INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 4 ms.
+2025-12-25 22:11:52 INFO  test.LandingPageTest - Browser launched successfully
+2025-12-25 22:11:56 INFO  test.LandingPageTest - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-25 22:11:58 INFO  test.LandingPageTest - Login successful, verifying side menu items
+2025-12-25 22:11:58 ERROR pages.LandingPage - Admi is NOT present in the menu.
+2025-12-25 22:11:58 ERROR pages.LandingPage - PIM is NOT present in the menu.
+2025-12-25 22:11:58 ERROR pages.LandingPage - Leave is NOT present in the menu.
+2025-12-25 22:11:58 ERROR pages.LandingPage - Time is NOT present in the menu.
+2025-12-25 22:11:58 ERROR pages.LandingPage - Recruitment is NOT present in the menu.
+2025-12-25 22:11:58 ERROR pages.LandingPage - My Info is NOT present in the menu.
+2025-12-25 22:11:58 ERROR pages.LandingPage - Performance is NOT present in the menu.
+2025-12-25 22:11:58 ERROR pages.LandingPage - Dashboard is NOT present in the menu.
+2025-12-25 22:11:58 ERROR pages.LandingPage - Directory is NOT present in the menu.
+2025-12-25 22:11:58 ERROR pages.LandingPage - Maintenance is NOT present in the menu.
+2025-12-25 22:11:58 ERROR pages.LandingPage - Claim is NOT present in the menu.
+2025-12-25 22:11:58 ERROR pages.LandingPage - Buzz is NOT present in the menu.
+2025-12-25 22:11:58 INFO  test.LandingPageTest - Side menu items verification completed
+2025-12-25 22:11:58 INFO  test.LandingPageTest - Closing the browser
+2025-12-25 22:12:00 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@2ba33e2c: 49 ms
+2025-12-25 22:12:00 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@5fad41be: 1 ms
+2025-12-25 22:12:00 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@7ad54c55: 8 ms
+2025-12-25 22:12:00 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@4e904fd5: 10 ms
+2025-12-25 22:12:00 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@58a120b0: 4 ms
+2025-12-25 22:12:00 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@27d57a2c: 0 ms
+2025-12-25 23:23:00 INFO  test.FirstTest - Browser launched successfully
+2025-12-25 23:23:04 INFO  test.FirstTest - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-25 23:23:05 INFO  test.FirstTest - Closing the browser
+2025-12-25 23:23:07 INFO  test.LoginTest - Browser launched successfully
+2025-12-25 23:23:11 INFO  test.LoginTest - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-25 23:23:19 INFO  test.LoginTest - Closing the browser
+2025-12-25 23:23:21 INFO  test.LandingPageTest - Browser launched successfully
+2025-12-25 23:23:24 INFO  test.LandingPageTest - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-25 23:23:26 INFO  test.LandingPageTest - Login successful, verifying side menu items
+2025-12-25 23:23:26 ERROR pages.LandingPage - Admin is NOT present in the menu.
+2025-12-25 23:23:26 ERROR pages.LandingPage - PIM is NOT present in the menu.
+2025-12-25 23:23:26 ERROR pages.LandingPage - Leave is NOT present in the menu.
+2025-12-25 23:23:26 ERROR pages.LandingPage - Time is NOT present in the menu.
+2025-12-25 23:23:26 ERROR pages.LandingPage - Recruitment is NOT present in the menu.
+2025-12-25 23:23:26 ERROR pages.LandingPage - My Info is NOT present in the menu.
+2025-12-25 23:23:26 ERROR pages.LandingPage - Performance is NOT present in the menu.
+2025-12-25 23:23:26 ERROR pages.LandingPage - Dashboard is NOT present in the menu.
+2025-12-25 23:23:26 ERROR pages.LandingPage - Directory is NOT present in the menu.
+2025-12-25 23:23:26 ERROR pages.LandingPage - Maintenance is NOT present in the menu.
+2025-12-25 23:23:26 ERROR pages.LandingPage - Claim is NOT present in the menu.
+2025-12-25 23:23:26 ERROR pages.LandingPage - Buzz is NOT present in the menu.
+2025-12-25 23:23:26 INFO  test.LandingPageTest - Side menu items verification completed
+2025-12-25 23:23:26 INFO  test.LandingPageTest - Closing the browser
