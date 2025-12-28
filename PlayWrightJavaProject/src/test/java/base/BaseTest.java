@@ -28,7 +28,7 @@ public class BaseTest {
 
 	@Parameters("browser")
 	@BeforeMethod(alwaysRun = true)
-	public void setUp(@Optional("chrome") String browserName, Method method) {
+	public void setUp(@Optional("edge") String browserName, Method method) {
 
 		ExtentTest test = extent.createTest(method.getName());
 		extentTest.set(test);
