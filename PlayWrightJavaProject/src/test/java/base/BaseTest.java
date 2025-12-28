@@ -32,8 +32,6 @@ public class BaseTest {
 	public ExtentTest test;
 	
 	
-	ScreenshotUtil screenshotUtil = new ScreenshotUtil();
-
 	@BeforeMethod
 	public void setUp(Method method) {
 		// Initialize ExtentReports
@@ -59,7 +57,7 @@ public class BaseTest {
 		
 		if(result.getStatus() == ITestResult.FAILURE) {
 			test.fail("Test Failed: " + result.getThrowable());
-			screenshotUtil.takeScreenshot(page, test);
+			ScreenshotUtil.takeScreenshot(page, test);
 		} else if(result.getStatus() == ITestResult.SUCCESS) {
 			test.pass("Test Passed");
 		} else if(result.getStatus() == ITestResult.SKIP) {

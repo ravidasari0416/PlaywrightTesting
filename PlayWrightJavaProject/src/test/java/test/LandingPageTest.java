@@ -20,12 +20,17 @@ public class LandingPageTest extends BaseTest {
 		try {
 			// Navigate to demo site
 			LoginPage loginpage = new LoginPage(page);
+			//login from Global variables
 //			loginpage.login(GlobalVariables.testuserName, GlobalVariables.testpassword);
 //			log.info("Login successful, verifying side menu items");
 			
 			
 			log.info("logging as role: " + GlobalVariables.role);
-			loginpage.loginAsRole("preparer");
+			//Login using Excel
+			//loginpage.loginAsRole("preparer");
+			
+			//Login using Database
+			loginpage.loginUsingDataBaseRole(GlobalVariables.role, test);
 			log.info("Login successful as preparer, verifying side menu items");
 			test.info("Login successful as preparer, verifying side menu items");
 

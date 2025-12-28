@@ -26,7 +26,9 @@ public class LandingPage extends BaseTest {
 
 	public void verifyMenuItems(String menuLocator, List<String> expectedItems, ExtentTest test) {
 		try {
-			List<String> actualItems = page.locator(menuLocator).allTextContents();
+			//List<String> actualItems = page.locator(menuLocator).allTextContents();
+			List<String> actualMenus = page.locator(menuLocator).allInnerTexts();
+
 			List<String> missingItems = new ArrayList<>();
 
 			page.waitForSelector(menuLocator, new Page.WaitForSelectorOptions().setTimeout(15000));
@@ -34,13 +36,12 @@ public class LandingPage extends BaseTest {
 
 			// System.out.println(page.locator(objRepo.menuItemsObject).count());
 
-			List<String> actualMenus = page.locator(menuLocator).allInnerTexts();
 
 			for (String m : actualMenus) {
 				System.out.println("[" + m + "]");
 			}
 			
-			System.out.println("Actual Menu Items: " + actualItems);
+			//System.out.println("Actual Menu Items: " + actualItems);
 
 			for (String expected : expectedItems) {
 				if (actualMenus.contains(expected)) {

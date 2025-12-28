@@ -5,6 +5,7 @@ import org.testng.annotations.Test;
 import base.BaseTest;
 import base.GlobalVariables;
 import pages.LoginPage;
+import utils.DatabaseUtil;
 
 public class LoginTest extends BaseTest{
 	
@@ -24,5 +25,7 @@ public class LoginTest extends BaseTest{
 		page.waitForTimeout(5000);
 
 	}
+	
+
 
 }
