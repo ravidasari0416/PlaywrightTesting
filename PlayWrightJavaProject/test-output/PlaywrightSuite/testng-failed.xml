@@ -3,13 +3,14 @@
 <suite name="Failed suite [PlaywrightSuite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Basic Tests(failed)">
     <classes>
-      <class name="test.LoginTest">
+      <class name="test.LandingPageTest">
         <methods>
-          <include name="tearDowon"/>
           <include name="setUp"/>
-          <include name="test"/>
+          <include name="tearDown"/>
+          <include name="verifySideMenuItems"/>
+          <include name="afterSuite"/>
         </methods>
-      </class> <!-- test.LoginTest -->
+      </class> <!-- test.LandingPageTest -->
     </classes>
   </test> <!-- Basic Tests(failed) -->
 </suite> <!-- Failed suite [PlaywrightSuite] -->

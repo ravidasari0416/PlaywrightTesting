@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-28T14:50:29 IST" name="Cross Browser Tests" finished-at="2025-12-28T14:50:54 IST" duration-ms="24841">
+  <suite started-at="2025-12-28T15:50:46 IST" name="Cross Browser Tests" finished-at="2025-12-28T15:51:10 IST" duration-ms="23696">
     <groups>
     </groups>
-    <test started-at="2025-12-28T14:50:29 IST" name="Chrome" finished-at="2025-12-28T14:50:51 IST" duration-ms="22207">
+    <test started-at="2025-12-28T15:50:46 IST" name="Chrome" finished-at="2025-12-28T15:51:07 IST" duration-ms="21383">
       <class name="test.LandingPageTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:test.LandingPageTest@3116c353]" started-at="2025-12-28T14:50:29 IST" name="setUp" finished-at="2025-12-28T14:50:45 IST" duration-ms="15901" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:test.LandingPageTest@3b0c9195]" started-at="2025-12-28T15:50:46 IST" name="setUp" finished-at="2025-12-28T15:51:01 IST" duration-ms="15303" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,26 +23,26 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifySideMenuItems()[pri:0, instance:test.LandingPageTest@3116c353]" started-at="2025-12-28T14:50:45 IST" name="verifySideMenuItems" finished-at="2025-12-28T14:50:51 IST" duration-ms="5553" status="PASS">
+        <test-method signature="verifySideMenuItems()[pri:0, instance:test.LandingPageTest@3b0c9195]" started-at="2025-12-28T15:51:01 IST" name="verifySideMenuItems" finished-at="2025-12-28T15:51:07 IST" duration-ms="5527" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySideMenuItems -->
-        <test-method is-config="true" signature="tearDowon(org.testng.ITestResult)[pri:0, instance:test.LandingPageTest@3116c353]" started-at="2025-12-28T14:50:51 IST" name="tearDowon" finished-at="2025-12-28T14:50:51 IST" duration-ms="698" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test.LandingPageTest@3b0c9195]" started-at="2025-12-28T15:51:07 IST" name="tearDown" finished-at="2025-12-28T15:51:07 IST" duration-ms="494" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifySideMenuItems status=SUCCESS method=LandingPageTest.verifySideMenuItems()[pri:0, instance:test.LandingPageTest@3116c353] output={null}]]]>
+                <![CDATA[[TestResult name=verifySideMenuItems status=SUCCESS method=LandingPageTest.verifySideMenuItems()[pri:0, instance:test.LandingPageTest@3b0c9195] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDowon -->
+        </test-method> <!-- tearDown -->
       </class> <!-- test.LandingPageTest -->
     </test> <!-- Chrome -->
-    <test started-at="2025-12-28T14:50:29 IST" name="Edge" finished-at="2025-12-28T14:50:51 IST" duration-ms="22382">
+    <test started-at="2025-12-28T15:50:46 IST" name="Edge" finished-at="2025-12-28T15:51:07 IST" duration-ms="21602">
       <class name="test.LandingPageTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:test.LandingPageTest@1ef6d34c]" started-at="2025-12-28T14:50:29 IST" name="setUp" finished-at="2025-12-28T14:50:45 IST" duration-ms="15883" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:test.LandingPageTest@315f43d5]" started-at="2025-12-28T15:50:46 IST" name="setUp" finished-at="2025-12-28T15:51:02 IST" duration-ms="15661" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -58,26 +58,30 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifySideMenuItems()[pri:0, instance:test.LandingPageTest@1ef6d34c]" started-at="2025-12-28T14:50:45 IST" name="verifySideMenuItems" finished-at="2025-12-28T14:50:51 IST" duration-ms="5477" status="PASS">
+        <test-method signature="verifySideMenuItems()[pri:0, instance:test.LandingPageTest@315f43d5]" started-at="2025-12-28T15:51:02 IST" name="verifySideMenuItems" finished-at="2025-12-28T15:51:07 IST" duration-ms="5367" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySideMenuItems -->
-        <test-method is-config="true" signature="tearDowon(org.testng.ITestResult)[pri:0, instance:test.LandingPageTest@1ef6d34c]" started-at="2025-12-28T14:50:51 IST" name="tearDowon" finished-at="2025-12-28T14:50:51 IST" duration-ms="965" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test.LandingPageTest@315f43d5]" started-at="2025-12-28T15:51:07 IST" name="tearDown" finished-at="2025-12-28T15:51:07 IST" duration-ms="522" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifySideMenuItems status=SUCCESS method=LandingPageTest.verifySideMenuItems()[pri:0, instance:test.LandingPageTest@1ef6d34c] output={null}]]]>
+                <![CDATA[[TestResult name=verifySideMenuItems status=SUCCESS method=LandingPageTest.verifySideMenuItems()[pri:0, instance:test.LandingPageTest@315f43d5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDowon -->
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:test.LandingPageTest@315f43d5]" started-at="2025-12-28T15:51:10 IST" name="afterSuite" finished-at="2025-12-28T15:51:10 IST" duration-ms="239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
       </class> <!-- test.LandingPageTest -->
     </test> <!-- Edge -->
-    <test started-at="2025-12-28T14:50:29 IST" name="Firefox" finished-at="2025-12-28T14:50:54 IST" duration-ms="24841">
+    <test started-at="2025-12-28T15:50:46 IST" name="Firefox" finished-at="2025-12-28T15:51:10 IST" duration-ms="23696">
       <class name="test.LandingPageTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:test.LandingPageTest@6a47b187]" started-at="2025-12-28T14:50:29 IST" name="setUp" finished-at="2025-12-28T14:50:48 IST" duration-ms="18594" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:test.LandingPageTest@68044f4]" started-at="2025-12-28T15:50:46 IST" name="setUp" finished-at="2025-12-28T15:51:04 IST" duration-ms="17905" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -93,21 +97,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifySideMenuItems()[pri:0, instance:test.LandingPageTest@6a47b187]" started-at="2025-12-28T14:50:48 IST" name="verifySideMenuItems" finished-at="2025-12-28T14:50:53 IST" duration-ms="5459" status="PASS">
+        <test-method signature="verifySideMenuItems()[pri:0, instance:test.LandingPageTest@68044f4]" started-at="2025-12-28T15:51:04 IST" name="verifySideMenuItems" finished-at="2025-12-28T15:51:09 IST" duration-ms="5004" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySideMenuItems -->
-        <test-method is-config="true" signature="tearDowon(org.testng.ITestResult)[pri:0, instance:test.LandingPageTest@6a47b187]" started-at="2025-12-28T14:50:53 IST" name="tearDowon" finished-at="2025-12-28T14:50:54 IST" duration-ms="737" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test.LandingPageTest@68044f4]" started-at="2025-12-28T15:51:09 IST" name="tearDown" finished-at="2025-12-28T15:51:10 IST" duration-ms="736" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifySideMenuItems status=SUCCESS method=LandingPageTest.verifySideMenuItems()[pri:0, instance:test.LandingPageTest@6a47b187] output={null}]]]>
+                <![CDATA[[TestResult name=verifySideMenuItems status=SUCCESS method=LandingPageTest.verifySideMenuItems()[pri:0, instance:test.LandingPageTest@68044f4] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDowon -->
+        </test-method> <!-- tearDown -->
       </class> <!-- test.LandingPageTest -->
     </test> <!-- Firefox -->
   </suite> <!-- Cross Browser Tests -->

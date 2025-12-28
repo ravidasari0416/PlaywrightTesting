@@ -2,6 +2,8 @@ package test;
 
 import org.testng.annotations.Test;
 
+import com.aventstack.extentreports.ExtentReports;
+
 import base.BaseTest;
 import base.GlobalVariables;
 import pages.LoginPage;
@@ -9,20 +11,20 @@ import utils.DatabaseUtil;
 
 public class LoginTest extends BaseTest{
 	
-	GlobalVariables global = new GlobalVariables();
 	
 	@Test
-	public void login() {
+	public void login(){
 		// Navigate to demo site
-		test.info("Navigating to the application URL");
-		page.navigate(global.baseURL);
+	
+		getTest().info("Navigating to the application URL");
+		getPage().navigate(GlobalVariables.baseURL);
 		
 		// Fill username and password using role selectors
-		test.info("Performing login operation");
-		LoginPage loginpage = new LoginPage(page);
-		loginpage.login(global.testuserName, global.testpassword);
-		test.pass("Login successful");
-		page.waitForTimeout(5000);
+		getTest().info("Performing login operation");
+		LoginPage loginpage = new LoginPage(getPage());
+		loginpage.login(GlobalVariables.testuserName, GlobalVariables.testpassword);
+		getTest().pass("Login successful");
+		getPage().waitForTimeout(5000);
 
 	}
 	

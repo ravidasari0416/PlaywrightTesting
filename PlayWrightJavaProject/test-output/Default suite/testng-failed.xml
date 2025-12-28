@@ -5,9 +5,10 @@
     <classes>
       <class name="test.LandingPageTest">
         <methods>
-          <include name="tearDowon"/>
           <include name="setUp"/>
+          <include name="tearDown"/>
           <include name="verifySideMenuItems"/>
+          <include name="afterSuite"/>
         </methods>
       </class> <!-- test.LandingPageTest -->
     </classes>

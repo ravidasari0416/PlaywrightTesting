@@ -1,61 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite thread-count="3" parallel="tests" name="Failed suite [Cross Browser Tests]" guice-stage="DEVELOPMENT">
-  <test thread-count="3" parallel="tests" name="Edge(failed)">
-    <parameter name="browser" value="edge"/>
+<suite name="Failed suite [PlaywrightSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Basic Tests(failed)">
     <classes>
       <class name="test.LandingPageTest">
         <methods>
-          <include name="tearDowon"/>
           <include name="setUp"/>
+          <include name="tearDown"/>
           <include name="verifySideMenuItems"/>
+          <include name="afterSuite"/>
         </methods>
       </class> <!-- test.LandingPageTest -->
-      <class name="test.LoginTest">
-        <methods>
-          <include name="tearDowon"/>
-          <include name="setUp"/>
-          <include name="login"/>
-        </methods>
-      </class> <!-- test.LoginTest -->
     </classes>
-  </test> <!-- Edge(failed) -->
-  <test thread-count="3" parallel="tests" name="Chrome(failed)">
-    <parameter name="browser" value="chrome"/>
-    <classes>
-      <class name="test.LandingPageTest">
-        <methods>
-          <include name="tearDowon"/>
-          <include name="setUp"/>
-          <include name="verifySideMenuItems"/>
-        </methods>
-      </class> <!-- test.LandingPageTest -->
-      <class name="test.LoginTest">
-        <methods>
-          <include name="tearDowon"/>
-          <include name="setUp"/>
-          <include name="login"/>
-        </methods>
-      </class> <!-- test.LoginTest -->
-    </classes>
-  </test> <!-- Chrome(failed) -->
-  <test thread-count="3" parallel="tests" name="Firefox(failed)">
-    <parameter name="browser" value="firefox"/>
-    <classes>
-      <class name="test.LandingPageTest">
-        <methods>
-          <include name="tearDowon"/>
-          <include name="setUp"/>
-          <include name="verifySideMenuItems"/>
-        </methods>
-      </class> <!-- test.LandingPageTest -->
-      <class name="test.LoginTest">
-        <methods>
-          <include name="tearDowon"/>
-          <include name="setUp"/>
-          <include name="login"/>
-        </methods>
-      </class> <!-- test.LoginTest -->
-    </classes>
-  </test> <!-- Firefox(failed) -->
-</suite> <!-- Failed suite [Cross Browser Tests] -->
+  </test> <!-- Basic Tests(failed) -->
+</suite> <!-- Failed suite [PlaywrightSuite] -->

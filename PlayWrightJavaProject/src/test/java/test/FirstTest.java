@@ -8,8 +8,8 @@ public class FirstTest extends BaseTest{
 	
 	@Test
 	public void verifyTest() {
-		page.navigate("https://www.google.com");
-		String title = page.title();
+		getPage().navigate("https://www.google.com");
+		String title = getPage().title();
 		System.out.println("Title is - " + title);
 	}
 	

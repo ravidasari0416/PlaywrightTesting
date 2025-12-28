@@ -19,7 +19,7 @@ public class LandingPageTest extends BaseTest {
 	public void verifySideMenuItems() {
 		try {
 			// Navigate to demo site
-			LoginPage loginpage = new LoginPage(page);
+			LoginPage loginpage = new LoginPage(getPage());
 			//login from Global variables
 //			loginpage.login(GlobalVariables.testuserName, GlobalVariables.testpassword);
 //			log.info("Login successful, verifying side menu items");
@@ -30,23 +30,23 @@ public class LandingPageTest extends BaseTest {
 			//loginpage.loginAsRole("preparer");
 			
 			//Login using Database
-			loginpage.loginUsingDataBaseRole(GlobalVariables.role, test);
+			loginpage.loginUsingDataBaseRole(GlobalVariables.role, getTest());
 			log.info("Login successful as preparer, verifying side menu items");
-			test.info("Login successful as preparer, verifying side menu items");
+			getTest().info("Login successful as preparer, verifying side menu items");
 
 			
 			// Verify side menu items
 			List<String> expectedItems = List.of("Admin", "PIM", "Leave", "Time", "Recruitment", "My Info", "Performance", "Dashboard", "Directory", "Maintenance", "Claim", "Buzz");
 			
 			// Create LandingPage object and verify menu items
-			LandingPage landingPage = new LandingPage(page);
-			landingPage.verifyMenuItems(objRepo.menuItemsObject,expectedItems, test);
+			LandingPage landingPage = new LandingPage(getPage());
+			landingPage.verifyMenuItems(objRepo.menuItemsObject,expectedItems, getTest());
 			log.info("Side menu items verification completed");
 			
 		} catch (Exception e) {
 
 			log.error("Error in verifying side menu items: " + e.getMessage());
-			test.fail("Test failed due to exception: " + e.getMessage());
+			getTest().fail("Test failed due to exception: " + e.getMessage());
 		}
 
 	}
