@@ -36,26 +36,36 @@ public class BaseTest {
 		Playwright pw = Playwright.create();
 		playwright.set(pw);
 
-		BrowserType.LaunchOptions options = new BrowserType.LaunchOptions().setHeadless(false); // Jenkins best practice
+		//BrowserType.LaunchOptions options = new BrowserType.LaunchOptions().setHeadless(false); // Jenkins best practice
 
 		Browser br;
 
 		switch (browserName.toLowerCase()) {
-		case "chrome":
+		case "chrome":{
+			BrowserType.LaunchOptions chromeOptions = new BrowserType.LaunchOptions().setHeadless(false).setChannel("chrome").setChromiumSandbox(false);
+		
 			test.info("Launching Chrome browser");
-			br = pw.chromium().launch(options.setChannel("chrome").setArgs(List.of("--start-maximized")));
+			br = pw.chromium().launch(chromeOptions.setArgs(List.of("--start-maximized")));
 			break;
-
-		case "edge":
+		}
+		case "edge":{
+			BrowserType.LaunchOptions edgeOptions = new BrowserType.LaunchOptions().setHeadless(false).setChannel("chrome").setChromiumSandbox(false);
+			
 			test.info("Launching Edge browser");
-			br = pw.chromium().launch(options.setChannel("msedge").setArgs(List.of("--start-maximized")));
+			br = pw.chromium().launch(edgeOptions.setArgs(List.of("--start-maximized")));
 			break;
+		}
+		
 
-		case "firefox":
+		case "firefox":{
+			BrowserType.LaunchOptions firefoxOptions = new BrowserType.LaunchOptions().setHeadless(false);
+			
 			test.info("Launching Firefox browser");
-			br = pw.firefox().launch(options.setArgs(List.of("--start-maximized")));
+			br = pw.firefox().launch(firefoxOptions);
 			break;
 
+		}
+		
 		default:
 			throw new IllegalArgumentException("Unsupported browser: " + browserName);
 		}
