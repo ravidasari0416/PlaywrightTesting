@@ -17,13 +17,13 @@ import utils.ScreenshotUtil;
 
 public class BaseTest {
 
-	private static ThreadLocal<Playwright> playwright = new ThreadLocal<>();
-	private static ThreadLocal<Browser> browser = new ThreadLocal<>();
-	private static ThreadLocal<BrowserContext> context = new ThreadLocal<>();
-	protected static ThreadLocal<Page> page = new ThreadLocal<>();
-	protected static ThreadLocal<ExtentTest> extentTest = new ThreadLocal<>();
+	private ThreadLocal<Playwright> playwright = new ThreadLocal<>();
+	private ThreadLocal<Browser> browser = new ThreadLocal<>();
+	private ThreadLocal<BrowserContext> context = new ThreadLocal<>();
+	protected ThreadLocal<Page> page = new ThreadLocal<>();
+	protected ThreadLocal<ExtentTest> extentTest = new ThreadLocal<>();
 
-	protected static ExtentReports extent = ExtentManager.getInstance();
+	protected ExtentReports extent = ExtentManager.getInstance();
 	protected Logger log = LoggerUtil.getLogger(getClass());
 
 	@Parameters("browser")
