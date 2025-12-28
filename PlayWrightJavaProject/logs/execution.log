@@ -666,3 +666,210 @@
 2025-12-28 13:10:15 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@1dc3502b: 5 ms
 2025-12-28 13:10:15 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@17fa1336: 5 ms
 2025-12-28 13:10:15 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@4228bf58: 0 ms
+2025-12-28 14:44:55 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\User\git\PlaywrightTesting\PlayWrightJavaProject\testng.xml
+
+2025-12-28 14:46:11 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\User\git\PlaywrightTesting\PlayWrightJavaProject\testng.xml
+
+2025-12-28 14:46:23 INFO  test.LoginTest - Browser launched successfully
+2025-12-28 14:46:23 INFO  test.LoginTest - Browser launched successfully
+2025-12-28 14:46:27 INFO  test.LoginTest - Browser launched successfully
+2025-12-28 14:46:27 INFO  test.LoginTest - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 14:46:27 INFO  test.LoginTest - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 14:46:30 INFO  test.LoginTest - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 14:46:35 INFO  test.LoginTest - Closing the browser
+2025-12-28 14:46:35 INFO  test.LoginTest - Closing the browser
+2025-12-28 14:46:38 INFO  test.LandingPageTest - Browser launched successfully
+2025-12-28 14:46:38 INFO  test.LandingPageTest - Browser launched successfully
+2025-12-28 14:46:39 INFO  test.LoginTest - Closing the browser
+2025-12-28 14:46:41 INFO  test.LandingPageTest - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 14:46:41 INFO  test.LandingPageTest - logging as role: preparer
+2025-12-28 14:46:42 INFO  test.LandingPageTest - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 14:46:42 INFO  test.LandingPageTest - logging as role: preparer
+2025-12-28 14:46:44 INFO  test.LandingPageTest - Browser launched successfully
+2025-12-28 14:46:47 INFO  pages.LoginPage - Logged in successfully for role from DataBase: PREPARER
+2025-12-28 14:46:47 INFO  test.LandingPageTest - Login successful as preparer, verifying side menu items
+2025-12-28 14:46:47 INFO  test.LandingPageTest - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 14:46:47 INFO  test.LandingPageTest - logging as role: preparer
+2025-12-28 14:46:47 INFO  pages.LandingPage - Total menu items found: 12
+2025-12-28 14:46:47 INFO  pages.LandingPage - Admin is present in the menu.
+2025-12-28 14:46:47 INFO  pages.LandingPage - PIM is present in the menu.
+2025-12-28 14:46:47 INFO  pages.LandingPage - Leave is present in the menu.
+2025-12-28 14:46:47 INFO  pages.LandingPage - Time is present in the menu.
+2025-12-28 14:46:47 INFO  pages.LandingPage - Recruitment is present in the menu.
+2025-12-28 14:46:47 INFO  pages.LandingPage - My Info is present in the menu.
+2025-12-28 14:46:47 INFO  pages.LandingPage - Performance is present in the menu.
+2025-12-28 14:46:47 INFO  pages.LandingPage - Dashboard is present in the menu.
+2025-12-28 14:46:47 INFO  pages.LandingPage - Directory is present in the menu.
+2025-12-28 14:46:47 INFO  pages.LandingPage - Maintenance is present in the menu.
+2025-12-28 14:46:47 INFO  pages.LandingPage - Claim is present in the menu.
+2025-12-28 14:46:47 INFO  pages.LandingPage - Buzz is present in the menu.
+2025-12-28 14:46:47 INFO  test.LandingPageTest - Side menu items verification completed
+2025-12-28 14:46:47 INFO  test.LandingPageTest - Closing the browser
+2025-12-28 14:46:47 INFO  pages.LoginPage - Logged in successfully for role from DataBase: PREPARER
+2025-12-28 14:46:47 INFO  test.LandingPageTest - Login successful as preparer, verifying side menu items
+2025-12-28 14:46:48 INFO  pages.LandingPage - Total menu items found: 12
+2025-12-28 14:46:48 INFO  pages.LandingPage - Admin is present in the menu.
+2025-12-28 14:46:48 INFO  pages.LandingPage - PIM is present in the menu.
+2025-12-28 14:46:48 INFO  pages.LandingPage - Leave is present in the menu.
+2025-12-28 14:46:48 INFO  pages.LandingPage - Time is present in the menu.
+2025-12-28 14:46:48 INFO  pages.LandingPage - Recruitment is present in the menu.
+2025-12-28 14:46:48 INFO  pages.LandingPage - My Info is present in the menu.
+2025-12-28 14:46:48 INFO  pages.LandingPage - Performance is present in the menu.
+2025-12-28 14:46:48 INFO  pages.LandingPage - Dashboard is present in the menu.
+2025-12-28 14:46:48 INFO  pages.LandingPage - Directory is present in the menu.
+2025-12-28 14:46:48 INFO  pages.LandingPage - Maintenance is present in the menu.
+2025-12-28 14:46:48 INFO  pages.LandingPage - Claim is present in the menu.
+2025-12-28 14:46:48 INFO  pages.LandingPage - Buzz is present in the menu.
+2025-12-28 14:46:48 INFO  test.LandingPageTest - Side menu items verification completed
+2025-12-28 14:46:48 INFO  test.LandingPageTest - Closing the browser
+2025-12-28 14:46:52 INFO  pages.LoginPage - Logged in successfully for role from DataBase: PREPARER
+2025-12-28 14:46:52 INFO  test.LandingPageTest - Login successful as preparer, verifying side menu items
+2025-12-28 14:46:52 INFO  pages.LandingPage - Total menu items found: 12
+2025-12-28 14:46:52 INFO  pages.LandingPage - Admin is present in the menu.
+2025-12-28 14:46:52 INFO  pages.LandingPage - PIM is present in the menu.
+2025-12-28 14:46:52 INFO  pages.LandingPage - Leave is present in the menu.
+2025-12-28 14:46:52 INFO  pages.LandingPage - Time is present in the menu.
+2025-12-28 14:46:52 INFO  pages.LandingPage - Recruitment is present in the menu.
+2025-12-28 14:46:52 INFO  pages.LandingPage - My Info is present in the menu.
+2025-12-28 14:46:52 INFO  pages.LandingPage - Performance is present in the menu.
+2025-12-28 14:46:52 INFO  pages.LandingPage - Dashboard is present in the menu.
+2025-12-28 14:46:52 INFO  pages.LandingPage - Directory is present in the menu.
+2025-12-28 14:46:52 INFO  pages.LandingPage - Maintenance is present in the menu.
+2025-12-28 14:46:52 INFO  pages.LandingPage - Claim is present in the menu.
+2025-12-28 14:46:52 INFO  pages.LandingPage - Buzz is present in the menu.
+2025-12-28 14:46:52 INFO  test.LandingPageTest - Side menu items verification completed
+2025-12-28 14:46:52 INFO  test.LandingPageTest - Closing the browser
+2025-12-28 14:48:24 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\User\git\PlaywrightTesting\PlayWrightJavaProject\testng.xml
+
+2025-12-28 14:48:37 INFO  test.LandingPageTest - Browser launched successfully
+2025-12-28 14:48:37 INFO  test.LandingPageTest - Browser launched successfully
+2025-12-28 14:48:39 INFO  test.LandingPageTest - Browser launched successfully
+2025-12-28 14:48:41 INFO  test.LandingPageTest - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 14:48:41 INFO  test.LandingPageTest - logging as role: preparer
+2025-12-28 14:48:41 INFO  test.LandingPageTest - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 14:48:41 INFO  test.LandingPageTest - logging as role: preparer
+2025-12-28 14:48:43 INFO  test.LandingPageTest - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 14:48:43 INFO  test.LandingPageTest - logging as role: preparer
+2025-12-28 14:48:47 INFO  pages.LoginPage - Logged in successfully for role from DataBase: PREPARER
+2025-12-28 14:48:47 INFO  test.LandingPageTest - Login successful as preparer, verifying side menu items
+2025-12-28 14:48:47 INFO  pages.LoginPage - Logged in successfully for role from DataBase: PREPARER
+2025-12-28 14:48:47 INFO  test.LandingPageTest - Login successful as preparer, verifying side menu items
+2025-12-28 14:48:47 INFO  pages.LandingPage - Total menu items found: 12
+2025-12-28 14:48:47 INFO  pages.LandingPage - Admin is present in the menu.
+2025-12-28 14:48:47 INFO  pages.LandingPage - PIM is present in the menu.
+2025-12-28 14:48:47 INFO  pages.LandingPage - Leave is present in the menu.
+2025-12-28 14:48:47 INFO  pages.LandingPage - Time is present in the menu.
+2025-12-28 14:48:47 INFO  pages.LandingPage - Recruitment is present in the menu.
+2025-12-28 14:48:47 INFO  pages.LandingPage - My Info is present in the menu.
+2025-12-28 14:48:47 INFO  pages.LandingPage - Performance is present in the menu.
+2025-12-28 14:48:47 INFO  pages.LandingPage - Dashboard is present in the menu.
+2025-12-28 14:48:47 INFO  pages.LandingPage - Directory is present in the menu.
+2025-12-28 14:48:47 INFO  pages.LandingPage - Maintenance is present in the menu.
+2025-12-28 14:48:47 INFO  pages.LandingPage - Claim is present in the menu.
+2025-12-28 14:48:47 INFO  pages.LandingPage - Buzz is present in the menu.
+2025-12-28 14:48:47 INFO  test.LandingPageTest - Side menu items verification completed
+2025-12-28 14:48:47 INFO  test.LandingPageTest - Closing the browser
+2025-12-28 14:48:48 INFO  pages.LandingPage - Total menu items found: 12
+2025-12-28 14:48:48 INFO  pages.LandingPage - Admin is present in the menu.
+2025-12-28 14:48:48 INFO  pages.LandingPage - PIM is present in the menu.
+2025-12-28 14:48:48 INFO  pages.LandingPage - Leave is present in the menu.
+2025-12-28 14:48:48 INFO  pages.LandingPage - Time is present in the menu.
+2025-12-28 14:48:48 INFO  pages.LandingPage - Recruitment is present in the menu.
+2025-12-28 14:48:48 INFO  pages.LandingPage - My Info is present in the menu.
+2025-12-28 14:48:48 INFO  pages.LandingPage - Performance is present in the menu.
+2025-12-28 14:48:48 INFO  pages.LandingPage - Dashboard is present in the menu.
+2025-12-28 14:48:48 INFO  pages.LandingPage - Directory is present in the menu.
+2025-12-28 14:48:48 INFO  pages.LandingPage - Maintenance is present in the menu.
+2025-12-28 14:48:48 INFO  pages.LandingPage - Claim is present in the menu.
+2025-12-28 14:48:48 INFO  pages.LandingPage - Buzz is present in the menu.
+2025-12-28 14:48:48 INFO  test.LandingPageTest - Side menu items verification completed
+2025-12-28 14:48:48 INFO  test.LandingPageTest - Closing the browser
+2025-12-28 14:48:49 INFO  pages.LoginPage - Logged in successfully for role from DataBase: PREPARER
+2025-12-28 14:48:49 INFO  test.LandingPageTest - Login successful as preparer, verifying side menu items
+2025-12-28 14:48:50 INFO  pages.LandingPage - Total menu items found: 12
+2025-12-28 14:48:50 INFO  pages.LandingPage - Admin is present in the menu.
+2025-12-28 14:48:50 INFO  pages.LandingPage - PIM is present in the menu.
+2025-12-28 14:48:50 INFO  pages.LandingPage - Leave is present in the menu.
+2025-12-28 14:48:50 INFO  pages.LandingPage - Time is present in the menu.
+2025-12-28 14:48:50 INFO  pages.LandingPage - Recruitment is present in the menu.
+2025-12-28 14:48:50 INFO  pages.LandingPage - My Info is present in the menu.
+2025-12-28 14:48:50 INFO  pages.LandingPage - Performance is present in the menu.
+2025-12-28 14:48:50 INFO  pages.LandingPage - Dashboard is present in the menu.
+2025-12-28 14:48:50 INFO  pages.LandingPage - Directory is present in the menu.
+2025-12-28 14:48:50 INFO  pages.LandingPage - Maintenance is present in the menu.
+2025-12-28 14:48:50 INFO  pages.LandingPage - Claim is present in the menu.
+2025-12-28 14:48:50 INFO  pages.LandingPage - Buzz is present in the menu.
+2025-12-28 14:48:50 INFO  test.LandingPageTest - Side menu items verification completed
+2025-12-28 14:48:50 INFO  test.LandingPageTest - Closing the browser
+2025-12-28 14:50:29 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\User\git\PlaywrightTesting\PlayWrightJavaProject\testng.xml
+
+2025-12-28 14:50:40 INFO  test.LandingPageTest - Launching Chrome browser
+2025-12-28 14:50:40 INFO  test.LandingPageTest - Launching Edge browser
+2025-12-28 14:50:40 INFO  test.LandingPageTest - Launching Firefox browser
+2025-12-28 14:50:41 INFO  test.LandingPageTest - Chrome browser launched
+2025-12-28 14:50:41 INFO  test.LandingPageTest - Edge browser launched
+2025-12-28 14:50:41 INFO  test.LandingPageTest - Browser launched successfully
+2025-12-28 14:50:41 INFO  test.LandingPageTest - Browser launched successfully
+2025-12-28 14:50:42 INFO  test.LandingPageTest - Firefox browser launched
+2025-12-28 14:50:44 INFO  test.LandingPageTest - Browser launched successfully
+2025-12-28 14:50:45 INFO  test.LandingPageTest - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 14:50:45 INFO  test.LandingPageTest - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 14:50:45 INFO  test.LandingPageTest - logging as role: preparer
+2025-12-28 14:50:45 INFO  test.LandingPageTest - logging as role: preparer
+2025-12-28 14:50:48 INFO  test.LandingPageTest - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-12-28 14:50:48 INFO  test.LandingPageTest - logging as role: preparer
+2025-12-28 14:50:50 INFO  pages.LoginPage - Logged in successfully for role from DataBase: PREPARER
+2025-12-28 14:50:50 INFO  test.LandingPageTest - Login successful as preparer, verifying side menu items
+2025-12-28 14:50:51 INFO  pages.LandingPage - Total menu items found: 12
+2025-12-28 14:50:51 INFO  pages.LandingPage - Admin is present in the menu.
+2025-12-28 14:50:51 INFO  pages.LandingPage - PIM is present in the menu.
+2025-12-28 14:50:51 INFO  pages.LandingPage - Leave is present in the menu.
+2025-12-28 14:50:51 INFO  pages.LandingPage - Time is present in the menu.
+2025-12-28 14:50:51 INFO  pages.LandingPage - Recruitment is present in the menu.
+2025-12-28 14:50:51 INFO  pages.LandingPage - My Info is present in the menu.
+2025-12-28 14:50:51 INFO  pages.LandingPage - Performance is present in the menu.
+2025-12-28 14:50:51 INFO  pages.LandingPage - Dashboard is present in the menu.
+2025-12-28 14:50:51 INFO  pages.LandingPage - Directory is present in the menu.
+2025-12-28 14:50:51 INFO  pages.LandingPage - Maintenance is present in the menu.
+2025-12-28 14:50:51 INFO  pages.LandingPage - Claim is present in the menu.
+2025-12-28 14:50:51 INFO  pages.LandingPage - Buzz is present in the menu.
+2025-12-28 14:50:51 INFO  test.LandingPageTest - Side menu items verification completed
+2025-12-28 14:50:51 INFO  test.LandingPageTest - Closing the browser
+2025-12-28 14:50:51 INFO  pages.LoginPage - Logged in successfully for role from DataBase: PREPARER
+2025-12-28 14:50:51 INFO  test.LandingPageTest - Login successful as preparer, verifying side menu items
+2025-12-28 14:50:51 INFO  pages.LandingPage - Total menu items found: 12
+2025-12-28 14:50:51 INFO  pages.LandingPage - Admin is present in the menu.
+2025-12-28 14:50:51 INFO  pages.LandingPage - PIM is present in the menu.
+2025-12-28 14:50:51 INFO  pages.LandingPage - Leave is present in the menu.
+2025-12-28 14:50:51 INFO  pages.LandingPage - Time is present in the menu.
+2025-12-28 14:50:51 INFO  pages.LandingPage - Recruitment is present in the menu.
+2025-12-28 14:50:51 INFO  pages.LandingPage - My Info is present in the menu.
+2025-12-28 14:50:51 INFO  pages.LandingPage - Performance is present in the menu.
+2025-12-28 14:50:51 INFO  pages.LandingPage - Dashboard is present in the menu.
+2025-12-28 14:50:51 INFO  pages.LandingPage - Directory is present in the menu.
+2025-12-28 14:50:51 INFO  pages.LandingPage - Maintenance is present in the menu.
+2025-12-28 14:50:51 INFO  pages.LandingPage - Claim is present in the menu.
+2025-12-28 14:50:51 INFO  pages.LandingPage - Buzz is present in the menu.
+2025-12-28 14:50:51 INFO  test.LandingPageTest - Side menu items verification completed
+2025-12-28 14:50:51 INFO  test.LandingPageTest - Closing the browser
+2025-12-28 14:50:53 INFO  pages.LoginPage - Logged in successfully for role from DataBase: PREPARER
+2025-12-28 14:50:53 INFO  test.LandingPageTest - Login successful as preparer, verifying side menu items
+2025-12-28 14:50:53 INFO  pages.LandingPage - Total menu items found: 12
+2025-12-28 14:50:53 INFO  pages.LandingPage - Admin is present in the menu.
+2025-12-28 14:50:53 INFO  pages.LandingPage - PIM is present in the menu.
+2025-12-28 14:50:53 INFO  pages.LandingPage - Leave is present in the menu.
+2025-12-28 14:50:53 INFO  pages.LandingPage - Time is present in the menu.
+2025-12-28 14:50:53 INFO  pages.LandingPage - Recruitment is present in the menu.
+2025-12-28 14:50:53 INFO  pages.LandingPage - My Info is present in the menu.
+2025-12-28 14:50:53 INFO  pages.LandingPage - Performance is present in the menu.
+2025-12-28 14:50:53 INFO  pages.LandingPage - Dashboard is present in the menu.
+2025-12-28 14:50:53 INFO  pages.LandingPage - Directory is present in the menu.
+2025-12-28 14:50:53 INFO  pages.LandingPage - Maintenance is present in the menu.
+2025-12-28 14:50:53 INFO  pages.LandingPage - Claim is present in the menu.
+2025-12-28 14:50:53 INFO  pages.LandingPage - Buzz is present in the menu.
+2025-12-28 14:50:53 INFO  test.LandingPageTest - Side menu items verification completed
+2025-12-28 14:50:53 INFO  test.LandingPageTest - Closing the browser
